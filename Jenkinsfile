@@ -1,5 +1,5 @@
 pipline {
-    agent { label 'jenkin-node' }
+    agent { label 'jenkins-node' }
     tool {
         jdk 'Java17'
         maven 'maven3'
