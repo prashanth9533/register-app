@@ -13,7 +13,7 @@ pipline {
 
         stage("Checkout from SCM"){
                steps{
-                   git branch: 'main',credentialsId: 'github', url: 'https://github.com/prashanth9533/register-app.git'
+                   git branch: 'main',credentialsId: 'github', url: 'https://github.com/prashanth9533/register-app'
                }
         }
 
